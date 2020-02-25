@@ -3,13 +3,12 @@ body {
 }
 .header {
   background-color: mediumseagreen;
-  height:150px;
-  margin-bottom:0;
+
 }
 
 .header-list li {
   list-style: none;
-  float:left;
+  display:inline-block;
   padding:100px 20px 0 20px;
   
 }
@@ -21,9 +20,12 @@ body {
 
 .main{
   height:600px;
+  clear:left
   background-color: darkolivegreen;
-  margin-top:0px;
 }
+
+h1 {margin-top:0;}
+ul {margin-top:0;margin-bottom:0;}
 
 .contents img {
   width:200px;
